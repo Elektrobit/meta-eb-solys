@@ -8,7 +8,7 @@ DEPENDS = "protobuf protobuf-native poco"
 
 inherit cmake pkgconfig 
 
-SRC_URI = "git://github.com/Elektrobit/eb-solys-target-agent-yocto.git;branch=master"
+SRC_URI = "git://github.com/Elektrobit/eb-solys-target-agent.git;branch=yocto"
 SRCREV = "${AUTOREV}"
 S = "${WORKDIR}/git"
 
