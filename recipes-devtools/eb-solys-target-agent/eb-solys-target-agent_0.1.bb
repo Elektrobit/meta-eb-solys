@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 PR = "r0"
 
 
-DEPENDS = "protobuf protobuf-native poco dlt-daemon"
+DEPENDS = "protobuf protobuf-native poco genivi-dlt"
 
 inherit cmake pkgconfig 
 
